@@ -30,6 +30,7 @@ A list of recent monocular depth estimation work, inspired by [awesome-computer-
 
 <details open>
 <summary>Self-Supervised Depth Estimation</summary>
+
 - [3D Distillation: Improving Self-Supervised Monocular Depth Estimation on Reflective Surfaces], ICCV 2023
 - [GasMono: Geometry-Aided Self-Supervised Monocular Depth Estimation for Indoor Scenes], ICCV 2023
 - [CORE: Co-planarity Regularized Monocular Geometry Estimation with Weak Supervision] | ICCV 2023
@@ -81,6 +82,7 @@ Improved Monocular Depth Estimation], ECCV 2022
 
 <details open>
 <summary>360 deg Depth</summary>
+
 - [Distortion-Aware Self-Supervised Indoor 360∘ Depth Estimation via Hybrid Projection Fusion and Structural Regularities], TMM 2023
 - [PanoFormer: Panorama Transformer for Indoor 360 Depth Estimation], ECCV 2022 | [github](https://github.com/zhijieshen-bjtu/PanoFormer)
 - [Omnifusion: 360 monocular depth estimation via geometry-aware fusion], CVPR 2022 | [github](https://github.com/yuyanli0831/OmniFusion)
