@@ -10,7 +10,7 @@ A list of recent monocular depth estimation work, inspired by [awesome-computer-
 - [IEBins: Iterative Elastic Bins for Monocular Depth Estimation](https://github.com/ShuweiShao/IEBins), NeurIPS 2023 | [github](https://github.com/ShuweiShao/IEBins) 
 - [Text-Image Alignment for Diffusion-Based Perception](http://www.vision.caltech.edu/tadp/) (Diffusion), arXiv 2023
 - [Unleashing Text-to-Image Diffusion Models for Visual Perception](https://vpd.ivg-research.xyz/) (Diffusion), ICCV 2023 | [github](https://github.com/wl-zhao/VPD)
-- [Neural Video Depth Stabilizer], ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
+- [Neural Video Depth Stabilizer](https://github.com/raymondwang987/nvds) , ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
 - [The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation](https://diffusion-vision.github.io/) (Diffusion), arXiv 2023 
 - [All in Tokens: Unifying Output Space of Visual Tasks via Soft Token](https://github.com/swintransformer/ait) (tokenized), arXiv 2023 | [github](https://github.com/swintransformer/ait) 
 - [Revealing the Dark Secrets of Masked Image Modeling](http://www.computationalimaging.org/publications/automatic-integration/) (tokenized), CVPR 2023 | [github](https://github.com/SwinTransformer/MIM-Depth-Estimation) 
@@ -49,7 +49,7 @@ Improved Monocular Depth Estimation](https://openaccess.thecvf.com/content/CVPR2
 <summary>Metric Depth from Single Image</summary>
 
 - [ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth](https://github.com/isl-org/ZoeDepth), arXiv 2023 | [github](https://github.com/isl-org/ZoeDepth)
-- [Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image], ICCV 2023 | [github](https://github.com/YvanYin/Metric3D)
+- [Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image](https://github.com/YvanYin/Metric3D), ICCV 2023 | [github](https://github.com/YvanYin/Metric3D)
 - [Towards Zero-Shot Scale-Aware Monocular Depth Estimation](https://sites.google.com/view/tri-zerodepth), ICCV 2023
 - [Toward Practical Monocular Indoor Depth Estimation](https://distdepth.github.io/), CVPR 2022 | [github](https://github.com/facebookresearch/DistDepth)
 
@@ -67,8 +67,8 @@ Improved Monocular Depth Estimation](https://openaccess.thecvf.com/content/CVPR2
 <summary>Depth from Dual-Pixel</summary>
 
 - [Du2Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels](https://augmentedperception.github.io/du2net/), ECCV 2022
-- [Dual pixel exploration: Simultaneous depth estimation and image restoration], CVPR 2021 | [github](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration)
-- [Learning single camera depth estimation using dual-pixels], ICCV 2019 | [github](https://github.com/google-research/google-research/blob/master/dual_pixels/README.md)
+- [Dual pixel exploration: Simultaneous depth estimation and image restoration](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration), CVPR 2021 | [github](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration)
+- [Learning single camera depth estimation using dual-pixels](https://github.com/google-research/google-research/blob/master/dual_pixels/README.md), ICCV 2019 | [github](https://github.com/google-research/google-research/blob/master/dual_pixels/README.md)
 
 </details>
 
