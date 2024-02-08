@@ -22,7 +22,7 @@ The list is mainly focusing on recent work after 2020
 - [The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation](https://diffusion-vision.github.io/) (Diffusion), arXiv 2023 
 - [All in Tokens: Unifying Output Space of Visual Tasks via Soft Token](https://github.com/swintransformer/ait) (tokenized), arXiv 2023 | [github](https://github.com/swintransformer/ait) 
 - [Revealing the Dark Secrets of Masked Image Modeling](http://www.computationalimaging.org/publications/automatic-integration/) (tokenization approach), CVPR 2023 | [github](https://github.com/SwinTransformer/MIM-Depth-Estimation) 
-- [Internal Discretization for Monocular Depth Estimation](https://www.vis.xyz/pub/idisc/) (tokenized), CVPR 2023 | [github](https://github.com/SysCV/idisc) 
+- [Internal Discretization for Monocular Depth Estimation](https://www.vis.xyz/pub/idisc/) (tokenization approach), CVPR 2023 | [github](https://github.com/SysCV/idisc) 
 - [Neural Video Depth Stabilizer](https://raymondwang987.github.io/NVDS/), ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
 - [VA-DepthNet: A Variational Approach to Single Image Depth Prediction](https://github.com/cnexah/va-depthnet), ICLR 2023 | [github](https://github.com/cnexah/va-depthnet) 
 - [Improving Deep Regression with Ordinal Entropy](https://github.com/needylove/ordinalentropy), ICLR 2023 | [github](https://github.com/needylove/ordinalentropy) 
