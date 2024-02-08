@@ -1,19 +1,27 @@
 # Awesome Monocular Depth Estimation [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A list of recent monocular depth estimation work, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision).
 
+The list is mainly focusing on recent work after 2020
 
 ## Papers
 
 <details open>
 <summary>High Performance </summary>
 
+
+
+- [Analysis of NaN Divergence in Training Monocular Depth Estimation Model](https://arxiv.org/abs/2311.03938), (Depth NaN error analysis)
+- [Unleashing the Power of Large-Scale Unlabeled Data](https://depth-anything.github.io/), arXiv 2024  | [github](https://github.com/LiheYoung/Depth-Anything) [huggingface](https://huggingface.co/spaces/LiheYoung/Depth-Anything)
+- [EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment](https://lavreniuk.github.io/EVP/) (Diffusion), arXiv 2023  | [github](https://github.com/Lavreniuk/EVP)
+-[Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation](https://marigoldmonodepth.github.io/), arXiv 2023 | [github](https://github.com/prs-eth/marigold)
+-[Harnessing Diffusion Models for Visual Perception with Meta Prompts](https://github.com/fudan-zvg/meta-prompts?tab=readme-ov-file), arXiv 2023 | [github](https://github.com/fudan-zvg/meta-prompts?tab=readme-ov-file)
 - [IEBins: Iterative Elastic Bins for Monocular Depth Estimation](https://github.com/ShuweiShao/IEBins), NeurIPS 2023 | [github](https://github.com/ShuweiShao/IEBins) 
 - [Text-Image Alignment for Diffusion-Based Perception](http://www.vision.caltech.edu/tadp/) (Diffusion), arXiv 2023
 - [Unleashing Text-to-Image Diffusion Models for Visual Perception](https://vpd.ivg-research.xyz/) (Diffusion), ICCV 2023 | [github](https://github.com/wl-zhao/VPD)
 - [Neural Video Depth Stabilizer](https://github.com/raymondwang987/nvds) , ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
 - [The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation](https://diffusion-vision.github.io/) (Diffusion), arXiv 2023 
 - [All in Tokens: Unifying Output Space of Visual Tasks via Soft Token](https://github.com/swintransformer/ait) (tokenized), arXiv 2023 | [github](https://github.com/swintransformer/ait) 
-- [Revealing the Dark Secrets of Masked Image Modeling](http://www.computationalimaging.org/publications/automatic-integration/) (tokenized), CVPR 2023 | [github](https://github.com/SwinTransformer/MIM-Depth-Estimation) 
+- [Revealing the Dark Secrets of Masked Image Modeling](http://www.computationalimaging.org/publications/automatic-integration/) (tokenization approach), CVPR 2023 | [github](https://github.com/SwinTransformer/MIM-Depth-Estimation) 
 - [Internal Discretization for Monocular Depth Estimation](https://www.vis.xyz/pub/idisc/) (tokenized), CVPR 2023 | [github](https://github.com/SysCV/idisc) 
 - [Neural Video Depth Stabilizer](https://raymondwang987.github.io/NVDS/), ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
 - [VA-DepthNet: A Variational Approach to Single Image Depth Prediction](https://github.com/cnexah/va-depthnet), ICLR 2023 | [github](https://github.com/cnexah/va-depthnet) 
@@ -69,7 +77,7 @@ Improved Monocular Depth Estimation](https://openaccess.thecvf.com/content/CVPR2
 - [Du2Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels](https://augmentedperception.github.io/du2net/), ECCV 2022
 - [Dual pixel exploration: Simultaneous depth estimation and image restoration](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration), CVPR 2021 | [github](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration)
 - [Learning single camera depth estimation using dual-pixels](https://github.com/google-research/google-research/blob/master/dual_pixels/README.md), ICCV 2019 | [github](https://github.com/google-research/google-research/blob/master/dual_pixels/README.md)
-
+- [Modeling Defocus-Disparity in Dual-Pixel Sensors](https://github.com/abhijithpunnappurath/dual-pixel-defocus-disparity), ICCP 2020 | [github](https://github.com/abhijithpunnappurath/dual-pixel-defocus-disparity)
 </details>
 
 <details open>
@@ -89,3 +97,36 @@ Improved Monocular Depth Estimation](https://openaccess.thecvf.com/content/CVPR2
 
 </details>
 
+
+<details open>
+<summary>Sparse Depth Completion</summary>
+
+
+- [LRRU: Long-short Range Recurrent Updating Networks for Depth Completion](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_LRRU_Long-short_Range_Recurrent_Updating_Networks_for_Depth_Completion_ICCV_2023_paper.pdf), ICCV 2023 | [github](https://github.com/YufeiWang777/LRRU) 
+- [BEV@DC: Bird's-Eye View Assisted Training for Depth Completion](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_BEVDC_Birds-Eye_View_Assisted_Training_for_Depth_Completion_CVPR_2023_paper.pdf), CVPR 2023 
+- [MFF-Net: Towards Efficient Monocular Depth Completion With Multi-Modal Feature Fusion](https://ieeexplore.ieee.org/abstract/document/10008014), RAL 2023
+- [CompletionFormer: Depth Completion with Convolutions and Vision Transformers](https://arxiv.org/pdf/2304.13030.pdf), CVPR 2023 | [github](https://github.com/youmi-zym/CompletionFormer)
+- [Dynamic Spatial Propagation Network for Depth Completion](https://arxiv.org/pdf/2202.09769.pdf), AAAI 2022 | [github](https://github.com/Kyakaka/DySPN)  
+- [CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf), ECCV 2022 | [github](https://github.com/kamse/CostDCNet) 
+- [Monitored Distillation for Positive Congruent Depth Completion](https://arxiv.org/pdf/2203.16034.pdf), ECCV 2022 | [github](https://github.com/alexklwong/calibrated-backprojection-network) 
+- [RigNet: Repetitive Image Guided Network for Depth Completion](https://arxiv.org/abs/2107.13802), ECCV 2022
+- [PENet: Towards Precise and Efficient Image Guided Depth Completion](https://arxiv.org/abs/2103.00783), ICRA 2021 | [github](https://github.com/JUGGHM/PENet_ICRA2021) 
+- [Scene Completeness-Aware Lidar Depth Completion for Driving Scenario](https://arxiv.org/abs/2003.06945), ICASSP 2021 | [github](https://github.com/choyingw/SCADC-DepthCompletion)
+- [Non-Local Spatial Propagation Network for Depth Completion](https://arxiv.org/pdf/2007.10042.pdf), ECCV 2020 | [github](https://github.com/zzangjinsun/NLSPN_ECCV20) 
+- [Depth Completion From Sparse LiDAR Data With Depth-Normal Constraints](https://arxiv.org/abs/1910.06727), ICCV 2019 | [github](https://github.com/yuyanli0831/OmniFusion)
+- [DFuseNet: Deep Fusion of RGB and Sparse Depth Information for Image Guided Dense Depth Completion](https://arxiv.org/pdf/1902.00761), ITSC 2019 | [github](https://github.com/ShreyasSkandanS/DFuseNet)
+- [Deep RGB-D canonical correlation analysis for sparse depth completion](https://arxiv.org/abs/1906.08967), NeurIPS 2019 | [github](https://github.com/choyingw/CFCNet)
+
+
+</details>
+
+<details open>
+<summary>Indoor Datasets</summary>
+
+Indoor dataset with focus on space type
+- [InSpaceType: Reconsider Space Type in Indoor Monocular Depth Estimation](https://arxiv.org/abs/2309.13516), CoRL 2023 | [Data Page](https://github.com/DepthComputation/InSpaceType_Benchmark)
+- [Toward practical monocular indoor depth estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Toward_Practical_Monocular_Indoor_Depth_Estimation_CVPR_2022_paper.pdf), CVPR 2022 | [Data Page](https://github.com/DepthComputation/InSpaceType_Benchmark) 
+
+
+
+</details>
