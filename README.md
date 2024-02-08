@@ -10,7 +10,7 @@ The list is mainly focusing on recent work after 2020
 
 
 
-- [Analysis of NaN Divergence in Training Monocular Depth Estimation Model](https://arxiv.org/abs/2311.03938), (Depth NaN error analysis)
+- [Analysis of NaN Divergence in Training Monocular Depth Estimation Model](https://arxiv.org/abs/2311.03938), (Depth NaN error analysis), arXiv 2024
 - [Unleashing the Power of Large-Scale Unlabeled Data](https://depth-anything.github.io/), arXiv 2024  | [github](https://github.com/LiheYoung/Depth-Anything) [huggingface](https://huggingface.co/spaces/LiheYoung/Depth-Anything)
 - [EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment](https://lavreniuk.github.io/EVP/) (Diffusion), arXiv 2023  | [github](https://github.com/Lavreniuk/EVP)
 -[Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation](https://marigoldmonodepth.github.io/), arXiv 2023 | [github](https://github.com/prs-eth/marigold)
