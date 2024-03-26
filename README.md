@@ -9,7 +9,7 @@ The list is mainly focusing on recent work after 2020
 <summary>High Performance </summary>
 
 
-
+- [DepthFM: Fast Monocular Depth Estimation with Flow Matching](https://depthfm.github.io/), (Depth Estimation using Flow Matching), arXiv 2024
 - [Analysis of NaN Divergence in Training Monocular Depth Estimation Model](https://arxiv.org/abs/2311.03938), (Depth NaN error analysis), arXiv 2024
 - [Unleashing the Power of Large-Scale Unlabeled Data](https://depth-anything.github.io/), arXiv 2024  | [github](https://github.com/LiheYoung/Depth-Anything) [huggingface](https://huggingface.co/spaces/LiheYoung/Depth-Anything)
 - [EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment](https://lavreniuk.github.io/EVP/) (Diffusion), arXiv 2023  | [github](https://github.com/Lavreniuk/EVP)
