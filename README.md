@@ -3,6 +3,8 @@ A list of recent monocular depth estimation work, inspired by [awesome-computer-
 
 The list is mainly focusing on recent work after 2020
 
+<b>Last update: Oct 2024</b>
+
 ## Papers
 
 <details open>
