@@ -8,6 +8,12 @@ The list is mainly focusing on recent work after 2020
 <details open>
 <summary>High Performance </summary>
 
+- [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073/) (precise focal length estimation with metric depth), arXiv 2024 | [github](https://github.com/apple/ml-depth-pro/)
+- [Boosting Generalizability towards Zero-Shot Cross-Dataset Single-Image Indoor Depth by Meta-Initialization](https://scholar.google.com/scholar?oi=bibs&cluster=10790219912035654526&btnI=1&hl=en) (meta-learning), IROS 2024
+- [DoubleTake: Geometry Guided Depth Estimation](https://nianticlabs.github.io/doubletake/resources/DoubleTake.pdf/), ECCV 2024 | [github](https://nianticlabs.github.io/doubletake/) 
+- [WorDepth: Variational Language Prior for Monocular Depth Estimation](https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_WorDepth_Variational_Language_Prior_for_Monocular_Depth_Estimation_CVPR_2024_paper.html), CVPR 2024 | [github](https://github.com/Adonis-galaxy/WorDepth/) 
+- [Scale-Invariant Monocular Depth Estimation via SSI Depth](https://dl.acm.org/doi/abs/10.1145/3641519.3657523?casa_token=5BzgjJGb_IkAAAAA:Qh0shrLY5ZvPgVSxomASjA_LDX2vItIIfAo8mRQGbZlGM-DIo-pCwP8dpPLNXQDtgtKd7K_98nEiQg), SIGGRAPH 2024
+- [PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation](https://arxiv.org/abs/2312.02284), CVPR 2024 | [github](https://zhyever.github.io/patchfusion/) 
 - [Metric3D v2 A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation](https://jugghm.github.io/Metric3Dv2/) (high-performing metric depth on zero-shot evaluation), arxiv 2024  | [github](https://jugghm.github.io/Metric3Dv2/) 
 - [UniDepth: Universal Monocular Metric Depth Estimation](https://github.com/lpiccinelli-eth/unidepth), (universal metric depth estimation; one's zero-shot performance match depth-anything on NYUv2), CVPR 2024  | [github](https://github.com/lpiccinelli-eth/unidepth) 
 - [Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation](https://github.com/prs-eth/marigold) (diffusion), CVPR 2024  | [github](https://github.com/prs-eth/marigold) 
@@ -22,7 +28,7 @@ The list is mainly focusing on recent work after 2020
 - [Robust Monocular Depth Estimation under Challenging Conditions](https://md4all.github.io/), ICCV 2023 | [github](https://github.com/md4all/md4all)
 - [Unleashing Text-to-Image Diffusion Models for Visual Perception](https://vpd.ivg-research.xyz/) (Diffusion), ICCV 2023 | [github](https://github.com/wl-zhao/VPD)
 - [Neural Video Depth Stabilizer](https://github.com/raymondwang987/nvds) , ICCV 2023 | [github](https://github.com/raymondwang987/nvds) 
-- [The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation](https://diffusion-vision.github.io/) (Diffusion), arXiv 2023 
+- [The Surprising Effectiveness of Diffusion Models for Optical Flow and Monocular Depth Estimation](https://diffusion-vision.github.io/) (Diffusion), NeurIPS 2023 
 - [All in Tokens: Unifying Output Space of Visual Tasks via Soft Token](https://github.com/swintransformer/ait) (tokenized), arXiv 2023 | [github](https://github.com/swintransformer/ait) 
 - [Revealing the Dark Secrets of Masked Image Modeling](http://www.computationalimaging.org/publications/automatic-integration/) (tokenization approach), CVPR 2023 | [github](https://github.com/SwinTransformer/MIM-Depth-Estimation) 
 - [Internal Discretization for Monocular Depth Estimation](https://www.vis.xyz/pub/idisc/) (tokenization approach), CVPR 2023 | [github](https://github.com/SysCV/idisc) 
@@ -39,10 +45,12 @@ The list is mainly focusing on recent work after 2020
 <details open>
 <summary>Self-Supervised Depth Estimation</summary>
 
-- [SQLdepth: Generalizable Self-Supervised Fine-Structured Monocular Depth Estimation](https://ojs.aaai.org/index.php/AAAI/article/view/28383), AAAI 2024
-- [Dusk Till Dawn: Self-supervised Nighttime Stereo Depth Estimation using Visual Foundation Models](https://arxiv.org/pdf/2405.11158), arxiv 2024
+- [Camera Height Doesn't Change: Unsupervised Training for Metric Monocular Road-Scene Depth Estimation](https://vision.ist.i.kyoto-u.ac.jp/research/fumet/), ECCV 2024
+- [SQLdepth: Generalizable Self-Supervised Fine-Structured Monocular Depth Estimation](https://ojs.aaai.org/index.php/AAAI/article/view/28383), AAAI 2024 | [github](https://github.com/hisfog/SfMNeXt-Impl)
+- [Dusk Till Dawn: Self-supervised Nighttime Stereo Depth Estimation using Visual Foundation Models](https://arxiv.org/pdf/2405.11158), ICRA 2024 | [github](https://github.com/madhubabuv/dtd)
 - [Complete contextual information extraction for self-supervised monocular depth estimation](https://www.sciencedirect.com/science/article/abs/pii/S1077314224001139), CVIU 2024
-- [FA-Depth: Toward Fast and Accurate Self-supervised Monocular Depth Estimation](https://arxiv.org/abs/2405.10885), arxiv 2024
+- [Mining Supervision for Dynamic Regions in Self-Supervised Monocular
+Depth Estimat](https://openaccess.thecvf.com/content/CVPR2024/papers/Nguyen_Mining_Supervision_for_Dynamic_Regions_in_Self-Supervised_Monocular_Depth_Estimation_CVPR_2024_paper.pdf), CVPR 2024 | [github](https://github.com/HoangChuongNguyen/mono-consistent-depth)
 - [Two-in-One Depth: Bridging the Gap Between Monocular and Binocular Self-Supervised Depth Estimation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhou_Two-in-One_Depth_Bridging_the_Gap_Between_Monocular_and_Binocular_Self-Supervised_ICCV_2023_paper.html), ICCV 2023
 - [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](https://openaccess.thecvf.com/content/CVPR2023/html/Bangunharcana_DualRefine_Self-Supervised_Depth_and_Pose_Estimation_Through_Iterative_Epipolar_Sampling_CVPR_2023_paper.html), CVPR 2023
 - [Self-Supervised Monocular Depth Estimation: Solving the Edge-Fattening Problem](https://openaccess.thecvf.com/content/WACV2023/html/Chen_Self-Supervised_Monocular_Depth_Estimation_Solving_the_Edge-Fattening_Problem_WACV_2023_paper.html), WACV 2023
@@ -63,6 +71,7 @@ The list is mainly focusing on recent work after 2020
 <details open>
 <summary>Metric Depth from Single Image</summary>
 
+- [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073/) (precise focal length estimation with metric depth), arXiv 2024 | [github](https://github.com/apple/ml-depth-pro/)
 - [Unleashing the Power of Large-Scale Unlabeled Data](https://depth-anything.github.io/), CVPR 2024  | [github](https://github.com/LiheYoung/Depth-Anything) [huggingface](https://huggingface.co/spaces/LiheYoung/Depth-Anything)
 - [Metric3D v2 A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation](https://jugghm.github.io/Metric3Dv2/) (high-performing metric depth on zero-shot evaluation), arxiv 2024  | [github](https://jugghm.github.io/Metric3Dv2/) 
 - [UniDepth: Universal Monocular Metric Depth Estimation](https://github.com/lpiccinelli-eth/unidepth), (universal metric depth estimation; one's zero-shot performance match depth-anything on NYUv2), CVPR 2024  | [github](https://github.com/lpiccinelli-eth/unidepth) 
@@ -97,16 +106,20 @@ The list is mainly focusing on recent work after 2020
 <summary>Fisheye</summary>
 
 
-- [SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments](https://syniez.github.io/SlaBins/), ICCV 2023
+- [SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments](https://syniez.github.io/SlaBins/), ICCV 2023 | [github](https://github.com/Syniez/SlaBins)
 - [SynWoodScape: Synthetic Surround-view Fisheye Camera Dataset for Autonomous Driving](https://github.com/valeoai/WoodScape), RAL 2021 | [github](https://github.com/valeoai/WoodScape)
 </details>
 
 <details open>
 <summary>360 deg Depth</summary>
 
+- [FreDSNet: Joint Monocular Depth and Semantic Segmentation with Fast Fourier Convolutions](https://arxiv.org/pdf/2210.01595v2), ICRA 2023 | [github](https://github.com/Sbrunoberenguel/FreDSNet)
+- [EGformer: Equirectangular Geometry-biased Transformer for 360 Depth Estimation](https://arxiv.org/pdf/2304.07803.pdf), ICCV 2023 | [github](https://github.com/yuniw18/EGformer)
 - [CRF360D: Monocular 360 Depth Estimation via Neural Spherical Fully-Connected CRFs](https://vlislab22.github.io/CRF360D/), arxiv 2024
 - [Distortion-Aware Self-Supervised Indoor 360∘ Depth Estimation via Hybrid Projection Fusion and Structural Regularities](https://arxiv.org/abs/2204.01027), TMM 2023
 - [PanoFormer: Panorama Transformer for Indoor 360 Depth Estimation](https://arxiv.org/abs/2203.09283), ECCV 2022 | [github](https://github.com/zhijieshen-bjtu/PanoFormer)
+- [360MonoDepth: High-Resolution 360 ∘ Monocular Depth Estimation](https://arxiv.org/pdf/2111.15669.pdf), CVPR 2022 | [github](https://github.com/manurare/360monodepth)
+- [SphereDepth: Panorama Depth Estimation from Spherical Domain](https://arxiv.org/pdf/2208.13714v1.pdf), CVPR 2022 | [github](https://github.com/Yannnnnnnnnnnn/SphereDepth)
 - [Omnifusion: 360 monocular depth estimation via geometry-aware fusion](https://arxiv.org/abs/2203.00838), CVPR 2022 | [github](https://github.com/yuyanli0831/OmniFusion)
 
 </details>
@@ -138,9 +151,11 @@ The list is mainly focusing on recent work after 2020
 <summary>Indoor Datasets</summary>
 
 Indoor dataset with a focus on space type
-- [InSpaceType: Reconsider Space Type in Indoor Monocular Depth Estimation](https://arxiv.org/abs/2309.13516), CoRL 2023 | [Data Page](https://github.com/DepthComputation/InSpaceType_Benchmark)
+- [InSpaceType: Reconsider Space Type in Indoor Monocular Depth Estimation](https://arxiv.org/abs/2309.13516), BMVC 2023 | [Data Page](https://github.com/DepthComputation/InSpaceType_Benchmark)
 - [Toward practical monocular indoor depth estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Toward_Practical_Monocular_Indoor_Depth_Estimation_CVPR_2022_paper.pdf), CVPR 2022 | [Data Page](https://github.com/DepthComputation/InSpaceType_Benchmark) 
 
-
+<details open>
+<summary>Other Domain Datasets</summary>
+- [SoccerNet-Depth: a Scalable Dataset for Monocular Depth Estimation in Sports Videos](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Leduc_SoccerNet-Depth_a_Scalable_Dataset_for_Monocular_Depth_Estimation_in_Sports_CVPRW_2024_paper.html), CVPRW 2024 | [Data Page]( https://github.com/SoccerNet/sn-depth) 
 
 </details>
