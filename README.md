@@ -156,6 +156,7 @@ Indoor dataset with a focus on space type
 
 <details open>
 <summary>Other Domain Datasets</summary>
+
 - [SoccerNet-Depth: a Scalable Dataset for Monocular Depth Estimation in Sports Videos](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/html/Leduc_SoccerNet-Depth_a_Scalable_Dataset_for_Monocular_Depth_Estimation_in_Sports_CVPRW_2024_paper.html), CVPRW 2024 | [Data Page]( https://github.com/SoccerNet/sn-depth) 
 
 </details>
